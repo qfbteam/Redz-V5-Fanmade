@@ -12,6 +12,14 @@ local Window = redzlib:MakeWindow({
   SaveFolder = "testando | redz lib v5.lua"
 })
 ```
+## Minimize Button
+```lua
+Window:AddMinimizeButton({
+  Button = { Image = redzlib:GetIcon("Apple"), BackgroundTransparency = 0 },
+  Corner = { CornerRadius = UDim.new(0, 6) }
+})
+```
+
 ## Tab
 ```Lua
 local Tab1 = Window:MakeTab({"Example", "cherry"}) -- Icons Comming Soon
